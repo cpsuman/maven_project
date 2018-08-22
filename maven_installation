@@ -1,0 +1,43 @@
+Introduction 
+================================================================================================================================================
+---->>  Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
+
+
+---->>  POM stands for Project Object Model. It is an XML representation of a Maven project held in a file named pom.xml.
+
+* The POM contains all necessary information about a project, as well as configurations of plugins to be used during the build process.
+
+
+================================================================================================================================================
+Installation
+================================================================================================================================================
+
+To install Maven, one should have a machine with Java Development Kit (JDK) of atleast 1.7 version or the later :
+
+To install java on ubuntu run the below command :
+
+user@localhost:~$ sudo -i 
+
+root@localhost:~# add-apt-repository ppa:webupd8team/java
+
+root@localhost:~# apt-get install oracle-java8-installer
+
+root@localhost:~# apt-get update
+
+Now, verifiy the installed java using below command :
+
+root@localhost:~# java -version
+
+Output will be :
+
+java version "1.8.0_181"
+Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
+
+sudo apt-get install maven
+
+it will stored in the default path i.e.
+
+/usr/share/maven/bin 
+
+ 
