@@ -20,6 +20,8 @@ user@localhost:~$ sudo -i
 
 root@localhost:~# add-apt-repository ppa:webupd8team/java
 
+root@localhost:~# apt-get update
+
 root@localhost:~# apt-get install oracle-java8-installer
 
 root@localhost:~# apt-get update
